@@ -181,7 +181,7 @@
             "image3": "@PROJECT_PATH@/assets/images/mbr-5-2000x1333.jpg",
             "image4": "@PROJECT_PATH@/assets/images/mbr-7-2000x1333.jpg"
           },
-          "title": "HORIZONTAL / VERTICAL FLIP",
+          "title": "",
           "title1": "<b>С чего начать</b>",
           "text1": "Начать надо с выбора хостинга, однако если вы решите сначала разобраться с конструкторами сайтов,&nbsp;<br>в этом нет ничего страшного",
           "button1": "<a data-app-btn=\"true\" href=\"https://goo.gl/9ppjQy\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; хостинг</a>",
@@ -359,7 +359,7 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/116.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/118.jpg",
             "bgImageRadio": true,
             "overlay": true,
             "overlayOpacity": 0.75,
