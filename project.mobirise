@@ -1,943 +1,539 @@
 {
   "settings": {
-    "currentPage": "index1.html",
-    "name": "My Site",
+    "name": "NewSite-07-08_2137",
+    "currentPage": "index.html",
     "theme": {
-      "name": "mobirise3",
-      "title": "Mobirise 3",
+      "name": "unicore",
+      "title": "Unicore",
       "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
-        "isRtl": false
+        "primaryColor": "#03a9f4",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Bitter",
+        "textFont": "Roboto",
+        "isSquareButtons": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 53,
+    "uniqCompNum": 39,
     "versionPublish": "3.12.1"
   },
   "pages": {
-    "page2.html": {
-      "settings": {
-        "title": "Web Page Generator Title",
-        "meta_descr": "Web Page Generator Description",
-        "order": 3
-      },
-      "components": [
-        {
-          "_inherit": "msg-box5",
-          "_styles": {
-            ".mbr-section-title, .lead p": {
-              "color": "#fff"
-            },
-            "H3": {
-              "color": "#9c6666",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
-            },
-            "P": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "color": "#fac51c"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box6",
-          "_anchor": "msg-box6-u",
-          "_params": {
-            "imageSize": 50,
-            "paddingTop": "3",
-            "paddingBottom": "3",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/TO7GEdw86nI?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/samsung-galaxy-note-1400x1050.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Отличный выбор для вас, или в подарок близкому человеку...",
-          "text": "мы предоставляем гарантию замены телефона в течении года за дополнителную плату, стоимость 443 рубля*",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery3",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "images": [
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/samsung-galaxy-note-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/samsung-galaxy-note-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/samsung-galaxy-note-black-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/samsung-galaxy-note-black-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/galaxynote-gtn7000-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/galaxynote-gtn7000-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": 1,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": true,
-            "fullWidth": true,
-            "showBullets": true
-          },
-          "_anchor": "gallery3-v",
-          "articleLayout": false,
-          "allItem": "All"
-        },
-        {
-          "_inherit": "contacts3",
-          "_styles": {
-            "p, .list-group-text, .form-control-label": {
-              "color": "#000"
-            },
-            "strong, h4": {
-              "color": "#7e9b9f"
-            },
-            "form .form-control": {
-              "border-color": "rgba(0, 0, 0, 0.2)",
-              "color": "#565656"
-            },
-            ".mbr-footer-content li": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
-            },
-            ".mbr-company .list-group-text::after": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts5",
-          "_anchor": "contacts5-p",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/guy-265x241.png",
-              "class": "card-img-top",
-              "width": 265,
-              "active": true,
-              "link": "page3.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "Наша компания осуществляет бесплатную доставку товара по всей России.",
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "phone",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text2": "+7(978) 558-35-30",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "map-pin",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text3": "1234 Street Name, City&nbsp;",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "envelope",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text4": "<p><a href=\"mailto:Samsungstore@mail.com\">Samsungstore@mail.com</a><a href=\"mailto:support@mobirise.com\"></a></p>",
-          "title1": "Categories",
-          "text5": "<li><a class=\"text-primary\" href=\"#\">Business</a></li><li><a class=\"text-primary\" href=\"#\">Design</a></li><li><a class=\"text-primary\" href=\"#\">Real life</a></li><li><a class=\"text-primary\" href=\"#\">Science</a></li><li><a class=\"text-primary\" href=\"#\">Tech</a></li>",
-          "text6": "<font color=\"#7e9b9f\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Наши контакты</b></span></font><br><font color=\"#7e9b9f\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font><br>Email: Samsungstore@mail.com<br><br><br>Телефон: +7(978) 558-35-30<br><br><br><br><strong>Address</strong><br>1234 Street Name<br>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "Samsungstore@mail.com",
-            "alerts": {
-              "success": "Успех!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Ваше имя*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Ваш Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": false,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Ваше сообщение*"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправьте нам сообщение</a>"
-        },
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
-              "font-size": "22px"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.6rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#030714!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#050c21"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-x",
-          "_params": {
-            "bgColor": "#050c21",
-            "fontSize": "0.6",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "delivery",
-              "family": "MobiriseIcons",
-              "link": "page3.html",
-              "size": 0,
-              "active": true,
-              "newWindow": false
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"page2.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Samsung Galaxy</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"index1.html\">Главная страница</a></li>"
-        }
-      ]
-    },
-    "index1.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": "",
-        "order": 1
+        "html_before": ""
       },
       "components": [
         {
-          "_inherit": "menu",
+          "_inherit": "dropdown-menu",
           "_tags": [
             "Theme"
           ],
           "_styles": {
-            ".hide-buttons .nav-btn": {
+            ".hide-buttons [data-button]": {
               "display": "none !important"
             },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
-              "font-size": "22px"
+            ".navbar-brand a": {
+              "font-size": "13px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#333",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-family": "'Lora', serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.85rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#030714!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#050c21"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#333"
             }
           },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-x",
+          "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-7",
           "_params": {
-            "bgColor": "#050c21",
-            "fontSize": "0.85",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {
+              "name": "Lora",
+              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "css": "'Lora', serif"
+            },
+            "fontColor": "#333",
+            "transparent": false,
             "sticky": true,
-            "logo": true,
+            "logo": false,
             "showBrand": true,
-            "collapsed": true,
             "hideButtons": false
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "delivery",
-              "family": "MobiriseIcons",
-              "link": "page3.html",
-              "size": 0,
-              "active": true,
-              "newWindow": false
+              "link": "index.html#header7-3",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"page2.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Samsung Galaxy</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"index1.html\">Главная страница</a></li>"
+          "brand": "<a class=\"text-gray\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">сайт за 30 минут</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Сайт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">способ монетизации</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://goo.gl/9ppjQy\">бесплатный хостинг</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">мой опыт</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://drive.google.com/open?id=0B-AIk7GVX3BUVmp4UUJ1UHZKY2c\">конструктор<br>для<br>windows<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"https://drive.google.com/open?id=0B-AIk7GVX3BUYUpDV1F5eVZ1LVE\">конструктор<br>для<br>android<br></a></li>"
         },
         {
+          "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
+          "_name": "header7",
           "_styles": {
-            ".mbr-section-title": {
-              "color": "#fff55f",
-              "text-align": "center",
-              "font-size": "60px",
+            "H3": {
+              "color": "#f2f2f2",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "text-align": "center"
+            },
+            "H5": {
+              "color": "#eef4f3",
               "font-family": "'Lora', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".features-list i": {
+              "color": "#ffc107",
+              "border-color": "#ffc107"
             }
           },
-          "_anchor": "header1-1b",
+          "_anchor": "header7-3",
           "_params": {
-            "parallax": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "iconsColor": "#ffc107",
+            "parallax": false,
             "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/samsung-galaxy-note-n7000-pc-suite-free-download-2000x1500.jpg",
-            "bgColor": "#a07e49",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1335.jpg",
+            "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#0b1328",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "Samsung Galaxy<br>Скидка 40%<br>Цена 5 037 рублей<br><br>Успей!<br>",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"http://got.by/1gx08r\" data-toolbar=\"-mbrBtnMove\">ЗАКАЗАТЬ</a> "
-        },
-        {
-          "_inherit": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#28262b",
-              "font-family": "'Yanone Kaffeesatz', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700"
-            },
-            ".mbr-section-text": {
-              "color": "#000000"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header6",
-          "_anchor": "header6-1c",
-          "_params": {
-            "imageSize": "53",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.6",
-            "overlayColor": "#efe0c9",
-            "inverse": true,
+            "overlayColor": "#151515",
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showIcons": false,
+            "icon1": "fa-database",
+            "showTitles": false,
+            "icon2": "fa-lightbulb-o",
+            "icon3": "fa-money",
+            "icon4": "fa-clock-o"
           },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://youtu.be/SO0TT-hs5uE",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Samsung Galaxy N7000",
-          "text": "Общие характеристики<br>Версия ОС &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Android 4.1<br>Тип экрана &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Super Amoled 16.78 млн. цветов<br>Размер экрана &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5.3 дюйм.<br>Разрешение экрана &nbsp; &nbsp; &nbsp; 1280х800<br>Стекло &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Устойчивое к царапинам<br>Процессор &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Samsung Exnos 4210<br>Оперативная память &nbsp; &nbsp; 1 гб.<br>Встроенной памяти &nbsp; &nbsp; &nbsp; 16 гб.<br>Емкость аккумулятора 2500 мА.ч<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobile2 mbr-iconfont mbr-iconfont-btn\"></span>Узнать больше</a>  "
+          "title": "Привет друзья!",
+          "text": "Хочу поделиться опытом создания сайта с нуля,<br> абсолютно бесплатно за 30 минут.<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://goo.gl/9ppjQy\" class=\"btn mbr-title-font btn-lg btn-danger\" data-toolbar=\"-mbrBtnMove\">Бесплатный хостинг</a> ",
+          "title1": "монетизация<br>трафика",
+          "title2": "как заработать на своем сайте",
+          "title3": "заработок в интернете без<br>вложений",
+          "title4": "создай свой сайт<br>за 30 минут"
         },
         {
-          "_inherit": "contacts3",
-          "_styles": {
-            "p, .list-group-text, .form-control-label": {
-              "color": "#000"
-            },
-            "strong, h4": {
-              "color": "#7e9b9f"
-            },
-            "form .form-control": {
-              "border-color": "rgba(0, 0, 0, 0.2)",
-              "color": "#565656"
-            },
-            ".mbr-footer-content li": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
-            },
-            ".mbr-company .list-group-text::after": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
-            }
-          },
+          "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts5",
-          "_anchor": "contacts5-p",
+          "_name": "features10",
+          "_anchor": "features10-s",
+          "_params": {
+            "animType": "gorizontal",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "image1": "@PROJECT_PATH@/assets/images/1.jpg",
+            "showButtons": true,
+            "image2": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
+            "image3": "@PROJECT_PATH@/assets/images/mbr-5-2000x1333.jpg",
+            "image4": "@PROJECT_PATH@/assets/images/mbr-7-2000x1333.jpg"
+          },
+          "title": "HORIZONTAL / VERTICAL FLIP",
+          "title1": "<b>С чего начать</b>",
+          "text1": "Начать надо с выбора хостинга, однако если вы решите сначала разобраться с конструкторами сайтов,&nbsp;<br>в этом нет ничего страшного",
+          "button1": "<a data-app-btn=\"true\" href=\"https://goo.gl/9ppjQy\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; хостинг</a>",
+          "title2": "<b>Что такое хостинг</b>",
+          "text2": "хостинг-это как оператор сотовой связи, у него есть свои тарифы и условия, хостинг предоставляет вам место на котором живет ваш сайт.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><i class=\"fa fa-paper-plane\"></i>&nbsp; читать</a>",
+          "title3": "<b>Что такое домен</b>",
+          "text3": "домен-это &nbsp;адрес вашего сайта, есть огромное колличество доменов разных (зонах)<br>зона-это то, что идет после имени, например .ru .com.&nbsp;",
+          "button3": "<a data-app-btn=\"true\" href=\"https://ru.wikipedia.org/wiki/%D0%94%D0%BE%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%B8%D0%BC%D1%8F\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><i class=\"fa fa-paper-plane\"></i>&nbsp; читать</a>",
+          "title4": "<b>Что такое движок</b>",
+          "text4": "движок-это среда в которой вы строите ваш сайт, самым популярным &nbsp;в плане настроек движок, является wordpress-это конструктор с огромным функционалом<br>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://ru.wikipedia.org/wiki/%D0%94%D0%B2%D0%B8%D0%B6%D0%BE%D0%BA\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><i class=\"fa fa-paper-plane\"></i>&nbsp; читать</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-10",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#b7d9ef",
             "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
           },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/guy-265x241.png",
-              "class": "card-img-top",
-              "width": 265,
-              "active": true,
-              "link": "page3.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
-              "linkInNewWindow": false,
-              "name": "mobirise",
-              "family": "MobiriseIcons",
-              "link": "page3.html",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "text1": "Наша компания осуществляет бесплатную доставку товара по всей России.",
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "phone",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text2": "+7(978) 558-35-30",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "map-pin",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text3": "1234 Street Name, City&nbsp;",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "envelope",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text4": "<p><a href=\"mailto:Samsungstore@mail.com\">Samsungstore@mail.com</a><a href=\"mailto:support@mobirise.com\"></a></p>",
-          "title1": "Categories",
-          "text5": "<li><a class=\"text-primary\" href=\"#\">Business</a></li><li><a class=\"text-primary\" href=\"#\">Design</a></li><li><a class=\"text-primary\" href=\"#\">Real life</a></li><li><a class=\"text-primary\" href=\"#\">Science</a></li><li><a class=\"text-primary\" href=\"#\">Tech</a></li>",
-          "text6": "<font color=\"#7e9b9f\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Наши контакты</b></span></font><br><font color=\"#7e9b9f\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font><br>Email: Samsungstore@mail.com<br><br><br>Телефон: +7(978) 558-35-30<br><br><br><br><strong>Address</strong><br>1234 Street Name<br>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "Samsungstore@mail.com",
-            "alerts": {
-              "success": "Успех!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Ваше имя*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Ваш Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": false,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Ваше сообщение*"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправьте нам сообщение</a>"
+          "text": "поделитесь этой страницей!"
         }
       ]
     },
-    "page3.html": {
-      "settings": {
-        "title": "Website Builder Title",
-        "meta_descr": "Website Builder Description"
-      },
+    "page1.html": {
+      "settings": {},
       "components": [
         {
-          "_inherit": "header1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header4",
-          "_anchor": "header4-1g",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "right",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "Гарантия качества и условия доставки товара",
-          "text": "Наша компания является представителями китайского магазина,<br>все условия приобретения товара производятся согласно правилам сайта на котором размещен данный магазин, спасибо за проявленное доверие.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
-        },
-        {
-          "_inherit": "contacts3",
-          "_styles": {
-            "p, .list-group-text, .form-control-label": {
-              "color": "#000"
-            },
-            "strong, h4": {
-              "color": "#7e9b9f"
-            },
-            "form .form-control": {
-              "border-color": "rgba(0, 0, 0, 0.2)",
-              "color": "#565656"
-            },
-            ".mbr-footer-content li": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
-            },
-            ".mbr-company .list-group-text::after": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts5",
-          "_anchor": "contacts5-1e",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/guy-265x241.png",
-              "class": "card-img-top",
-              "width": 265,
-              "active": true,
-              "link": "page3.html",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "Наша компания осуществляет бесплатную доставку товара по всей России.",
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "phone",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text2": "+7(978) 558-35-30",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "map-pin",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text3": "1234 Street Name, City&nbsp;",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "envelope",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text4": "<p><a href=\"mailto:Samsungstore@mail.com\">Samsungstore@mail.com</a><a href=\"mailto:support@mobirise.com\"></a></p>",
-          "title1": "Categories",
-          "text5": "<li><a class=\"text-primary\" href=\"#\">Business</a></li><li><a class=\"text-primary\" href=\"#\">Design</a></li><li><a class=\"text-primary\" href=\"#\">Real life</a></li><li><a class=\"text-primary\" href=\"#\">Science</a></li><li><a class=\"text-primary\" href=\"#\">Tech</a></li>",
-          "text6": "<font color=\"#7e9b9f\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Наши контакты</b></span></font><br><font color=\"#7e9b9f\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font><br>Email: Samsungstore@mail.com<br><br><br>Телефон: +7(978) 558-35-30<br><br><br><br><strong>Address</strong><br>1234 Street Name<br>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "Samsungstore@mail.com",
-            "alerts": {
-              "success": "Успех!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Ваше имя*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Ваш Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": false,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Ваше сообщение*"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Отправьте нам сообщение</a>"
-        },
-        {
-          "_inherit": "menu",
+          "_inherit": "dropdown-menu",
           "_tags": [
             "Theme"
           ],
           "_styles": {
-            ".hide-buttons .nav-btn": {
+            ".hide-buttons [data-button]": {
               "display": "none !important"
             },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Indie Flower', cursive",
-              "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
-              "font-size": "22px"
+            ".navbar-brand a": {
+              "font-size": "13px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#333",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-family": "'Lora', serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.6rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.650rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#030714!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#050c21"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#333"
             }
           },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-1f",
+          "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-g",
           "_params": {
-            "bgColor": "#050c21",
-            "fontSize": "0.6",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {
+              "name": "Lora",
+              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "css": "'Lora', serif"
+            },
+            "fontColor": "#333",
+            "transparent": false,
             "sticky": true,
-            "logo": true,
+            "logo": false,
             "showBrand": true,
-            "collapsed": true,
             "hideButtons": false
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "delivery",
-              "family": "MobiriseIcons",
-              "link": "page3.html",
-              "size": 0,
-              "active": true,
-              "newWindow": false
+              "link": "index.html#header7-3",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"page2.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Samsung Galaxy</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"index1.html\">Главная страница</a></li>"
+          "brand": "<a class=\"text-gray\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">сайт за 30 минут</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Сайт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">способ монетизации</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://goo.gl/9ppjQy\">бесплатный хостинг</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">мой опыт</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://drive.google.com/open?id=0B-AIk7GVX3BUVmp4UUJ1UHZKY2c\">конструктор<br>для<br>windows<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"https://drive.google.com/open?id=0B-AIk7GVX3BUYUpDV1F5eVZ1LVE\">конструктор<br>для<br>android<br></a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header15",
+          "_anchor": "header15-v",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 0,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-2000x1333.jpg",
+            "bgColor": "#e4ebed",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.05,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true
+          },
+          "title": "мой опыт",
+          "text": "В один прекрасный день, посетила меня идея создать свой сайт, конкретной цели ради которой можно было сделать сайт небыло, но интерес разобраться в том как все устроено, заставил окунуться в мир сайтостроения с головой.<br><br><br>Я был напуган количеством незнакомой информации, которая потоком устремилась в мой разум,<br><br>новые термины сбивали с толку и совершенно непонятно было с чего начать. <br><br>Есть три вещи которые надо знать о том как устроены сайты, это те вещи которыми я поделился бы сам с собой в первый день знакомства с сайтостроением, будь у меня такая возможнось.<br><br><br>1. Начать надо с выбора хостинга, хостинг-это как оператор сотовой связи, у него есть свои тарифы и условия, хостинг предоставляет вам место на котором живет ваш сайт.<br>Существует огромное колличество хостингов в том числе и бесплатные, с минимальным функционалом которого достаточно для начала. Я остановил свой выбор на бесплатном хостинге webhost, главным недостатком которого является отсутствие русского языка, но тут нам на помощь приходит встроенный переводчик гугл и жить становится легко, однако знание английского языка, делает жизнь еще легче.<br><br>2.Выбрать домен, домен-это имя которое вы видите в браузерной строке, есть огромное колличество доменов в разных (зонах)<br>зона-это то, что идет после имени, например .ru .com .org и т.д.,<br>чем популярнее зона тем выше цена и соответственно сложнее выбрать оригинальное имя, чаще всего доменное имя можно преобрести вместе с хостингом, хотя и не обязательно. webhost так же дает возможность бесплатно зарегестрировать доменное имя пусть и не в самой популярной зоне.<br><br>3.Подобрать движок сайта, движок-это среда в которой вы строите ваш сайт, самым популярным и гибким в плане настроек движок является wordpress-это самый сложный конструктор с огромным количеством функций в которых легко запутаться новичку и если нет задачи сделать страницу за пол часа, то лучше начать разбираться в wordpress, (который по умолчанию установлен в webhost).<br>Дальше идут всевозможные конструкторы платные и бесплатные, сложные и легкие. В плане скорости и удобства, я выбрал конструктор под названием Mobirise-это бесплатный конструктор сайтов, часть функционала которого вы можете наблюдать прямо сейчас, именно его я выбрал для создания этого сайта,<br>его отличительная особенность заключается в простоте использования и наличия мобильной версии для платформы ANDROID<br>в правом верхнем углу я сделал две кнопки для скачивания двух версий этого конструктора.",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://goo.gl/9ppjQy\" class=\"btn mbr-title-font btn-lg btn-danger\" data-toolbar=\"-mbrBtnMove\">начинай</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive center-block",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/9.png"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "_styles": {
+            "P": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "parallax1",
+          "_styles": {
+            "P": {
+              "color": "#ffc107"
+            },
+            "H4": {
+              "color": "#fbfbfc",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
+          "_anchor": "parallax1-r",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImage": "@PROJECT_PATH@/assets/images/116.jpg",
+            "bgImageRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "начинай покорять вершины",
+          "text": "поверь в себя..."
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-11",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#b7d9ef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "поделитесь этой страницей!"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {},
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-size": "13px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#333",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-family": "'Lora', serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#333"
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-h",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {
+              "name": "Lora",
+              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "css": "'Lora', serif"
+            },
+            "fontColor": "#333",
+            "transparent": false,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-192x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html#header7-3",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-gray\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">сайт за 30 минут</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Сайт</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">способ монетизации</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://goo.gl/9ppjQy\">бесплатный хостинг</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">мой опыт</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://drive.google.com/open?id=0B-AIk7GVX3BUVmp4UUJ1UHZKY2c\">конструктор<br>для<br>windows<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"https://drive.google.com/open?id=0B-AIk7GVX3BUYUpDV1F5eVZ1LVE\">конструктор<br>для<br>android<br></a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-y",
+          "_params": {
+            "blocks": "5",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "icon1": "fa-money",
+            "icon2": "fa-picture-o",
+            "icon3": "fa-rocket",
+            "icon4": "fa-globe",
+            "icon5": "fa-globe"
+          },
+          "title1": "как монетизировать трафик",
+          "text1": "Для тех кто не знает как получить прибыль с сайта, я расскажу!<br>Существует множество партнерских программ и сервисов, для в пример я приведу один из них.",
+          "title2": "Партнерская программа",
+          "text2": "И так сервис называется <a href=\"http://got.by/1o360g\" class=\"text-info\">EPN ссылка</a>, работает по принципу кэшбека, принцип простой, вы находите товар в интернет магазине например <a href=\"http://got.by/1o363y\">алиэкспресс</a>, копируете ссылку и вставляете ее в панеле партнерки епн, в результате получаете свою публичную ссылку и за любой купленный товар через вашу ссылку, вы получаете проценты.",
+          "title3": "размещайте публичные ссылки на своем сайте!!!",
+          "text3": "",
+          "title4": "для удобства",
+          "text4": "Существует мобильное приложение EPN его можно скачать <a href=\"http://got.by/1o36b5\">тут</a>&nbsp;<br><span style=\"letter-spacing: 0.5px; background-color: inherit;\">так же есть браузерное расширение EPN &nbsp;скачать </span><a href=\"http://got.by/1o367n\" style=\"letter-spacing: 0.5px;\">здесь</a><span style=\"letter-spacing: 0.5px; background-color: inherit;\">&nbsp;&nbsp;</span><br>все инструменты созданы для удобства работы с сервисом",
+          "title5": "заключение",
+          "text5": "Надеюсь, что данный демонстрационный сайт будет вам полезен, а может вдохновит кого то пройти моим путем и заработать свои первые деньги в интернете. ВСЕМ УДАЧИ!",
+          "_styles": {
+            "H4": {
+              "color": "#ff2323",
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-12",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#b7d9ef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "поделитесь этой страницей!"
         }
       ]
     }
